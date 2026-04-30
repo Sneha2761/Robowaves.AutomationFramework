@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-30T14:07:54 IST" name="Surefire suite" finished-at="2026-04-30T14:07:54 IST" duration-ms="51">
+  <suite started-at="2026-04-30T15:12:04 IST" name="Surefire suite" finished-at="2026-04-30T15:12:04 IST" duration-ms="56">
     <groups>
     </groups>
-    <test started-at="2026-04-30T14:07:54 IST" name="Surefire test" finished-at="2026-04-30T14:07:54 IST" duration-ms="51">
+    <test started-at="2026-04-30T15:12:04 IST" name="Surefire test" finished-at="2026-04-30T15:12:04 IST" duration-ms="56">
+      <class name="practice2.CreatePageTest">
+        <test-method signature="CreatePage()[pri:0, instance:practice2.CreatePageTest@147ed70f]" started-at="2026-04-30T15:12:04 IST" name="CreatePage" finished-at="2026-04-30T15:12:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePage -->
+        <test-method signature="CreatePageWithDate()[pri:0, instance:practice2.CreatePageTest@147ed70f]" started-at="2026-04-30T15:12:04 IST" name="CreatePageWithDate" finished-at="2026-04-30T15:12:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePageWithDate -->
+      </class> <!-- practice2.CreatePageTest -->
       <class name="practice.CreateContectTest">
-        <test-method signature="CreateContect()[pri:0, instance:practice.CreateContectTest@45018215]" started-at="2026-04-30T14:07:54 IST" name="CreateContect" finished-at="2026-04-30T14:07:54 IST" duration-ms="4" status="PASS">
+        <test-method signature="CreateContect()[pri:0, instance:practice.CreateContectTest@30b7c004]" started-at="2026-04-30T15:12:04 IST" name="CreateContect" finished-at="2026-04-30T15:12:04 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateContect -->

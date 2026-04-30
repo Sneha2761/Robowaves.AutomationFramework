@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="practice.CreateContectTest" class="method navigator-link" hash-for-method="CreateContect">CreateContect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="practice2.CreatePageTest" class="method navigator-link" hash-for-method="CreatePage">CreatePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="practice2.CreatePageTest" class="method navigator-link" hash-for-method="CreatePageWithDate">CreatePageWithDate</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -118,6 +128,28 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">practice2.CreatePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreatePage">
+                  </a> <!-- CreatePage -->
+                  <span class="method-name">CreatePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreatePageWithDate">
+                  </a> <!-- CreatePageWithDate -->
+                  <span class="method-name">CreatePageWithDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -145,6 +177,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;practice.CreateContectTest&quot;/&gt;
+      &lt;class name=&quot;practice2.CreatePageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -158,7 +191,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (1 class)</span>
+                <span class="test-name">Surefire test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -184,16 +217,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'CreateContect')
 data.setCell(0, 2, 'practice.CreateContectTest')
-data.setCell(0, 3, 4);
+data.setCell(0, 3, 5);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CreatePageWithDate')
+data.setCell(1, 2, 'practice2.CreatePageTest')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CreatePage')
+data.setCell(2, 2, 'practice2.CreatePageTest')
+data.setCell(2, 3, 1);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 ms</span>
+              <span class="suite-total-time">Total running time: 7 ms</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -223,6 +264,17 @@ return data;
               <div class="test-method">
                 <span class="method-name">CreateContect</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">practice2.CreatePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CreatePage</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreatePageWithDate</span>
+                <span class="method-start">13 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
